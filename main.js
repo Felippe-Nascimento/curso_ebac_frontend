@@ -10,7 +10,7 @@ form.addEventListener('submit', function(event){
 });
 
 function formValido (){
-    if (numeroCampoA >= numeroCampoB){
+    if (numeroCampoA.value >= numeroCampoB.value){
         alert('Formulário INVÁLIDO, Campo B não é maior que o Campo A.')
     } else {
         alert('Formulário VÁLIDO, Campo B é maior que o Campo A.');
