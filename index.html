@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário EBAC</title>
     <link rel="stylesheet" href="./main.css"> 
 </head>
 <body>
-    <div>
-        <form>
-            <h1>Fomulário EBAC</h1>
-            <label for="numeroA">Campo A </label><br> <input type="number" placeholder="Numero" id="numeroA" ><br>
-            <label for="numeroB">Campo B </label><br> <input type="number" placeholder="Numero" id="numeroB"><br>
+    <div class="container">
+        <h1>Fomulário EBAC</h1>
+        <form id="formulario">
+            <label for="numeroA">Campo A </label><br> <input type="number" required placeholder="Numero" id="numeroA" ><br>
+            <label for="numeroB">Campo B </label><br> <input type="number" required placeholder="Numero" id="numeroB"><br>
             <button type="submit">Enviar</button>
         </form>
     </div>
-    <script src="./mais.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>

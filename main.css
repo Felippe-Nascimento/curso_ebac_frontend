@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+h1{
+    margin-left: 200px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+input, button{
+    display: block;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-top: 8px;
+    width: 100%;
+}
+button{
+    margin-top: 0;
+    background-color: rgb(59, 94, 7);
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(109, 173, 11);
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
