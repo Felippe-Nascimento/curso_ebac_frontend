@@ -47,3 +47,9 @@ input.error {
     border-color: red;
     outline-color: red;
 }
+
+.menssagem{
+    padding: 14px;
+    color: #fff;
+    display: none;
+}
