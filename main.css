@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #e4e0e0;
+}
+
+.container{
+    max-width: 920px;
+    width: 100%;
+    margin: 100px auto;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px solid rgb(94, 198, 230);
+    background-color: rgb(52, 124, 206);
+    
+}
+
+header img {
+    height: 80px;
+    margin-right: 12px;
+}
+
+header h1{
+    font-family: "Kanit", sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: #fff;
+}
+
+button {
+    background-color: rgb(22, 167, 22);
+    color: #fff;
+    border: none;
+    font-size: 22px;
+    padding: 6px;
+    border-radius: 6px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+form {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(147, 196, 252);
+}
+
+form h2 {
+    font-style: italic;
+}
+
+form input {
+    font-size: 22px;
+    padding: 6px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+ul {
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+}
+
+ul li{
+    cursor: pointer;
+
+}
+
+ul img{
+    height: 40px;
+    margin-left: 700px;
+}
