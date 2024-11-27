@@ -50,12 +50,17 @@ button {
     cursor: pointer;
 }
 
+#btn-cancelar-trf {
+    background-color: red;
+}
+
 form {
     padding: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(147, 196, 252);
+    display: none;
 }
 
 form h2 {
@@ -76,14 +81,4 @@ ul {
     align-items: center;
     font-size: 25px;
     width: 100%;
-}
-
-ul li{
-    cursor: pointer;
-
-}
-
-ul img{
-    height: 40px;
-    margin-left: 700px;
 }
